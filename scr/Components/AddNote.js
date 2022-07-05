@@ -1,15 +1,11 @@
 import React, {useState} from 'react';
 import {View, StyleSheet, TextInput, Button, Alert} from 'react-native';
 
-//передается пропс addNote (app.js) как addNoteProp
 export const AddNote = ({addNoteProp}) => {
 
-    //локальный стейт для формы ввода
     const [value, setValue] = useState('')
 
-    //обработчик нажатия кнопки "добавить"
     const pressText = () => {
-    //проверка на пустую строку
     if (value.trim()){
            
                 
