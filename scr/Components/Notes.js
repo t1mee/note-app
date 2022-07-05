@@ -2,7 +2,6 @@ import React from 'react';
 import {View, StyleSheet, Text, TouchableOpacity} from 'react-native';
 
 
-//передается пропс из метода map (app.js) как note
                         
 export const Notes = ({note, deleteNote, getEdit}) => {
     return(
